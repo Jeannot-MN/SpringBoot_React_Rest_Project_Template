@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="db" />
+        <module name="business-api" />
+        <module name="domain" />
+        <module name="web-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="business-api" target="1.8" />
+      <module name="db" target="1.8" />
+      <module name="domain" target="1.8" />
+      <module name="modules" target="1.8" />
+      <module name="SpringReactRestTemplate" target="1.8" />
+      <module name="web-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringReactRestTemplate" options="-parameters" />
+      <module name="business-api" options="-parameters" />
+      <module name="db" options="-parameters" />
+      <module name="domain" options="-parameters" />
+      <module name="modules" options="-parameters" />
+      <module name="web-server" options="-parameters" />
+    </option>
+  </component>
+</project>

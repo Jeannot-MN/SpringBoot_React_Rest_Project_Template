@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringReactRestTemplate.iml" filepath="$PROJECT_DIR$/SpringReactRestTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/business-api/business-api.iml" filepath="$PROJECT_DIR$/modules/business-api/business-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/db/db.iml" filepath="$PROJECT_DIR$/modules/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/domain/domain.iml" filepath="$PROJECT_DIR$/modules/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/web-server/web-server.iml" filepath="$PROJECT_DIR$/modules/web-server/web-server.iml" />
+    </modules>
+  </component>
+</project>
